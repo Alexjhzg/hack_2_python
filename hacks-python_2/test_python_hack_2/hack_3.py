@@ -26,7 +26,7 @@ def fn_hack_3(s):
     palabra_editada = "".join(dictionary.get(letter, letter) for letter in s)
     
     if palabra_editada:
-        # Manejar la última letra: si era 'u' original, mantener 'v' en minúscula
+        
         original_last_char = s[-1] if s else ''
         last_char = palabra_editada[-1].lower() if original_last_char == 'u' else palabra_editada[-1].upper()
         
