@@ -15,7 +15,7 @@ def fn_hack_7(lst):
     resultado = []
     i = 0
     while i < len(lst):
-        # Caso especial: lista [0] debe retornar [0]
+       
         if len(lst) == 1 and lst[0] == 0:
             return [0]
         if i % 2 == 0:
